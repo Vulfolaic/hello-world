@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>rectExample</title>
+        <meta charset='utf-8' />
+        <link href="style.css" rel = "stylesheet">
+    </head>
+    <body>
+        <canvas id='example'>Обновите браузер</canvas>
+        <script>
+            var example = document.getElementById("example"),
+			    ctx     = example.getContext('2d');
+            example.width  = 640;
+            example.height = 480;
+            ctx.fillRect (50, 50, 300, 200);
+        </script>
+    </body>
+</html>
